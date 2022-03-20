@@ -1,0 +1,76 @@
+.card {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.flex__cols {
+    display: flex;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: solid 1px gray;
+}
+
+.flex__cols img {
+    width: 270px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.country__desc {
+    width: 60%;
+    margin: 20px;
+}
+.country__desc * {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    transition: all ease-in-out 0.3s;
+}
+.country__desc h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.country__desc h4 ion-icon {
+    font-size: 22px;
+    color: dodgerblue;
+    margin-bottom: -4px;
+}
+
+.country__desc a {
+    color: darkgray;
+    margin: 0 15px;
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.country__desc a ion-icon {
+    color: darkgray;
+    margin: 0 5px;
+    font-size: 18px;
+    margin-bottom: -4px;
+}
+.country__desc a:hover,
+.country__desc a:hover ion-icon {
+    color: blueviolet;
+}
+
+.country__desc h2 {
+    font-size: 42px;
+    font-weight: 900;
+    color: dodgerblue;
+    margin-bottom: 30px;
+}
+.country__desc span.time {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.country__desc p {
+    padding: 20px 0;
+}
